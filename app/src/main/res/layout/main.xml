@@ -8,6 +8,51 @@
         android:id="@+id/question_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Canberra is the capital of Australia."
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="60dp"
+        android:text="Canberra is the capital of Australia"
+        android:textAlignment="center"
         android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/true_button"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8BC34A"
+            android:text="True" />
+
+        <Button
+            android:id="@+id/false_button"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="15dp"
+            android:backgroundTint="#FF5722"
+            android:text="False" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/cheat_button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="CHEAT!" />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="NEXT" />
+
 </LinearLayout>
